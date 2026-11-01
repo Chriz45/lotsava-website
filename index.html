@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lotsava – Pflege-Konto für pflegende Angehörige</title>
+<meta name="description" content="Lotsava zeigt pflegenden Angehörigen, wie viel Geld aus der Pflegeversicherung noch zur Verfügung steht – und warnt, bevor es verfällt. Rechnungen scannen, Abrechnung als PDF, gemeinsam mit der Familie.">
+<meta property="og:title" content="Lotsava – Pflege-Konto für pflegende Angehörige">
+<meta property="og:description" content="Kein Euro aus der Pflegekasse soll mehr verfallen.">
+<meta property="og:image" content="https://lotsava.de/icon.png">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { --gruen: #3f6b5e; --tief: #24423a; --gold: #f0a540; --creme: #fbfaf7; --text: #1d2a26; --leise: #5b6b66; --karte: #ffffff; --rand: #e3e9e6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --creme: #131816; --text: #e8eeeb; --leise: #a7b5b0; --karte: #1b2220; --rand: #2c3633; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--creme); color: var(--text); line-height: 1.6; }
+  header { background: radial-gradient(circle at 50% 0%, #4d8070, var(--tief) 70%); color: #fff; text-align: center; padding: 56px 16px 64px; }
+  .icon { width: 120px; height: 120px; border-radius: 27px; box-shadow: 0 18px 40px rgba(0,0,0,.35); }
+  h1 { font-size: 2.6rem; margin: 20px 0 4px; letter-spacing: .3px; }
+  .tag { font-size: 1.2rem; color: #ffd89a; font-weight: 700; margin: 0 0 18px; }
+  header p { max-width: 560px; margin: 0 auto; color: rgba(255,255,255,.85); }
+  .bald { display: inline-block; margin-top: 26px; padding: 14px 28px; border-radius: 999px; font-weight: 800; color: var(--tief); background: linear-gradient(135deg, #ffd89a, var(--gold)); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 24px; }
+  h2 { font-size: 1.4rem; margin: 8px 0 18px; text-align: center; }
+  .raster { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+  .karte { background: var(--karte); border: 1px solid var(--rand); border-radius: 18px; padding: 16px 18px; }
+  .karte b { display: block; color: var(--gruen); margin-bottom: 4px; }
+  @media (prefers-color-scheme: dark) { .karte b { color: #8cc3b1; } }
+  .karte span { color: var(--leise); font-size: .95rem; }
+  .zahl { text-align: center; margin: 44px auto 8px; max-width: 560px; color: var(--leise); }
+  .zahl strong { display: block; font-size: 2.2rem; color: var(--text); }
+  .sprachen { text-align: center; color: var(--leise); font-size: .95rem; margin-top: 32px; }
+  footer { text-align: center; padding: 24px 16px 40px; font-size: .9rem; color: var(--leise); }
+  footer a { color: var(--leise); margin: 0 10px; }
+</style>
+</head>
+<body>
+<header>
+  <img class="icon" src="icon.png" alt="Lotsava App-Symbol">
+  <h1>Lotsava</h1>
+  <p class="tag">Dein Lotse durch die Pflege zu Hause.</p>
+  <p>Lotsava zeigt pflegenden Angehörigen auf einen Blick, wie viel Geld aus der Pflegeversicherung noch zur Verfügung steht – und warnt, bevor es verfällt.</p>
+  <span class="bald">Bald im App Store</span>
+</header>
+<main>
+  <h2>Alles, was die Pflegekasse zahlt – wie ein Bankkonto</h2>
+  <div class="raster">
+    <div class="karte"><b>Jedes Budget im Blick</b><span>Entlastungsbetrag, Pflegehilfsmittel, Verhinderungs- und Kurzzeitpflege und mehr – mit Kontostand nach Pflegegrad.</span></div>
+    <div class="karte"><b>Warnung vor Verfall</b><span>Lotsava erinnert 60, 30 und 7 Tage vor jeder Frist, damit kein Geld liegen bleibt.</span></div>
+    <div class="karte"><b>Rechnung scannen</b><span>Foto machen – Betrag und Datum werden direkt auf dem iPhone erkannt.</span></div>
+    <div class="karte"><b>Abrechnung als PDF</b><span>Fertiger Antrag für die Pflegekasse, Rechnungen hängen als Anlage dran.</span></div>
+    <div class="karte"><b>Gemeinsam mit der Familie</b><span>Geschwister und Partner führen dasselbe Pflege-Konto – jede Rechnung kommt sofort bei allen an.</span></div>
+    <div class="karte"><b>Privat by Design</b><span>Kein Konto, kein Server, keine Werbung. Alles Ende-zu-Ende-verschlüsselt in deiner iCloud.</span></div>
+  </div>
+  <p class="zahl"><strong>Bis zu 80 %</strong>der Pflegehaushalte rufen den Entlastungsbetrag nicht ab – oft, weil niemand den Kontostand kennt. Lotsava ändert das.</p>
+  <p class="sprachen">Auf Deutsch, Englisch, Türkisch, Polnisch, Rumänisch, Russisch, Ukrainisch, Arabisch und Italienisch.</p>
+</main>
+<footer>
+  <a href="datenschutz.html">Datenschutz</a>·<a href="impressum.html">Impressum</a>·<a href="support.html">Support</a>·<a href="privacy.html" lang="en">English</a>
+</footer>
+</body>
+</html>
